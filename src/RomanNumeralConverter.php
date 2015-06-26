@@ -2,6 +2,9 @@
 
 class RomanNumeralConverter
 {
+	/**
+	 * @var array $lookup
+	 */
 	protected static $lookup = [
 		1000 => 'M',
 		900  => 'CM',
@@ -18,6 +21,12 @@ class RomanNumeralConverter
 		1    => 'I',
 	];
 
+	/**
+	 * Convert to roman numerals
+	 *
+	 * @param $number
+	 * @return string
+	 */
 	public function convert($number)
 	{
 		$solution = '';
