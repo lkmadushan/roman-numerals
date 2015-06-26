@@ -1,0 +1,22 @@
+{
+    "name": "kata/roman-numerals",
+    "require-dev": {
+        "phpspec/phpspec": "^2.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    },
+    "config": {
+        "bin-dir": "vendor/bin"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kalpa Perera",
+            "email": "kalpa.lkm@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
